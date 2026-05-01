@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Jasa pembuatan website profesional HunterZz Studio. Website modern, SEO Google, hosting Netlify gratis, responsive. Mulai Rp 350.000. Hubungi sekarang!"/>
+  <meta name="keywords" content="jasa pembuatan website profesional hunterzz, hunterzz studio, jasa website murah, jasa buat website profesional, website bisnis indonesia, landing page murah, jasa web developer serang, website SEO google"/>
+  <meta name="author" content="HunterZz Studio"/>
+  <meta name="google-site-verification" content="xvSlsngEM6XVlxIZRrtQgSaB4kf6b1O2b-hvhMXtzlg" />
+  <meta name="robots" content="index, follow"/>
+  <meta property="og:title" content=" Jasa Pembuatan Website Profesional-HunterZz Studio"/>
+  <meta property="og:description" content="Jasa pembuatan website profesional HunterZz Studio. Mulai Rp 350.000. Design modern, SEO Google, hosting gratis."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="logo anime.png"/>
+  <link rel="canonical" href="https://profesionalwebuilder.netlify.app/"/>
+  <title>Jasa Pembuatan Website Profesional-HunterZz Studio</title>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"LocalBusiness","name":"HunterZz Studio","description":"Jasa pembuatan website profesional. Design modern, SEO Google, hosting Netlify gratis.","url":"https://profesionalwebuilder.netlify.app","logo":"https://profesionalwebuilder.netlify.app/logo_anime.png","telephone":"+6208999736597","email":"danish.atha.987@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Serang","addressRegion":"Banten","addressCountry":"ID"},"priceRange":"Rp 350.000 - Rp 500.000","sameAs":["https://www.instagram.com/danzz_hunterzz","https://github.com/fixhunter321","https://tiktok.com/@danz_atha12_r1"]}
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet"/>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #050810;
+      --bg2:      #080c18;
+      --glass:    rgba(255,255,255,0.05);
+      --glass-h:  rgba(255,255,255,0.09);
+      --border:   rgba(255,255,255,0.08);
+      --border-h: rgba(255,255,255,0.18);
+      --text:     #eef0f8;
+      --muted:    rgba(238,240,248,0.5);
+      --c1:       #38bdf8; /* sky */
+      --c2:       #818cf8; /* indigo */
+      --c3:       #34d399; /* emerald */
+      --c4:       #fb7185; /* rose */
+      --grad:     linear-gradient(135deg, var(--c1), var(--c2));
+      --grad2:    linear-gradient(135deg, var(--c2), var(--c3));
+      --ease:     cubic-bezier(.16,1,.3,1);
+      --r:        20px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* ── LIQUID BG ── */
+    .liquid-bg {
+      position: fixed; inset: 0; z-index: 0;
+      pointer-events: none; overflow: hidden;
+    }
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(100px);
+      opacity: .12;
+      animation: blobFloat 20s ease-in-out infinite;
+    }
+    .blob-1 { width:700px;height:700px;background:var(--c1);top:-200px;left:-150px;animation-delay:0s; }
+    .blob-2 { width:600px;height:600px;background:var(--c2);bottom:-100px;right:-100px;animation-delay:-7s; }
+    .blob-3 { width:500px;height:500px;background:var(--c3);top:40%;left:35%;animation-delay:-14s; }
+    .blob-4 { width:400px;height:400px;background:var(--c4);top:20%;right:15%;animation-delay:-4s; }
+
+    @keyframes blobFloat {
+      0%,100% { transform: translate(0,0) scale(1) rotate(0deg); }
+      25%      { transform: translate(30px,-40px) scale(1.06) rotate(5deg); }
+      50%      { transform: translate(-20px,30px) scale(.96) rotate(-3deg); }
+      75%      { transform: translate(40px,20px) scale(1.03) rotate(4deg); }
+    }
+
+    /* Liquid mesh overlay */
+    body::before {
+      content:'';
+      position:fixed;inset:0;z-index:1;pointer-events:none;
+      background:
+        radial-gradient(ellipse 60% 40% at 20% 20%, rgba(56,189,248,.06) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 60% at 80% 80%, rgba(129,140,248,.07) 0%, transparent 60%);
+    }
+
+    /* Grain */
+    body::after {
+      content:'';
+      position:fixed;inset:0;z-index:2;pointer-events:none;
+      background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+      opacity:.6;
+    }
+
+    /* ── ALL CONTENT ── */
+    nav, section, footer, .hero { position: relative; z-index: 10; }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; width: 100%;
+      z-index: 200;
+      height: 66px;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 5vw;
+      transition: background .4s, border-color .4s, backdrop-filter .4s;
+      border-bottom: 1px solid transparent;
+    }
+    nav.scrolled {
+      background: rgba(5,8,16,.75);
+      backdrop-filter: blur(22px);
+      border-color: var(--border);
+    }
+
+    .nav-logo {
+      display: flex; align-items: center; gap: 10px;
+      text-decoration: none;
+    }
+    .nav-logo img {
+      width: 40px; height: 40px; border-radius: 50%;
+      object-fit: cover; border: 1.5px solid rgba(129,140,248,.4);
+      flex-shrink: 0;
+    }
+    .nav-logo-wrap { display: flex; flex-direction: column; line-height: 1; }
+    .nav-logo-name {
+      font-family: 'Clash Display', sans-serif;
+      font-size: 1rem; font-weight: 700; letter-spacing: -.01em;
+      background: var(--grad);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .nav-logo-sub {
+      font-size: .58rem; letter-spacing: .16em; text-transform: uppercase;
+      color: var(--muted); margin-top: 1px;
+    }
+
+    .nav-links { display:flex; gap:32px; list-style:none; }
+    .nav-links a {
+      font-size: .82rem; letter-spacing: .08em; text-transform: uppercase;
+      color: var(--muted); text-decoration: none;
+      position: relative; transition: color .25s;
+    }
+    .nav-links a::after {
+      content:''; position:absolute; bottom:-4px; left:0;
+      width:0; height:1.5px;
+      background: var(--grad);
+      transition: width .35s var(--ease);
+    }
+    .nav-links a:hover { color: var(--text); }
+    .nav-links a:hover::after { width:100%; }
+
+    .nav-cta {
+      font-family: 'Clash Display', sans-serif;
+      font-size: .82rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+      color: var(--bg); background: var(--grad);
+      padding: 10px 22px; border-radius: 100px;
+      text-decoration: none;
+      transition: opacity .3s, transform .3s var(--ease), box-shadow .3s;
+    }
+    .nav-cta:hover { opacity:.85; transform:translateY(-2px); box-shadow: 0 8px 24px rgba(56,189,248,.25); }
+
+    .hamburger {
+      display:none; flex-direction:column; gap:5px;
+      background:none; border:none; cursor:pointer; padding:4px;
+    }
+    .hamburger span {
+      display:block; width:24px; height:1.5px; background:var(--text);
+      transition:transform .4s var(--ease), opacity .3s;
+    }
+    .hamburger.open span:nth-child(1) { transform:translateY(6.5px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity:0; }
+    .hamburger.open span:nth-child(3) { transform:translateY(-6.5px) rotate(-45deg); }
+
+    .mobile-nav {
+      display:none; position:fixed; inset:0; z-index:190;
+      background:rgba(5,8,16,.97); backdrop-filter:blur(24px);
+      flex-direction:column; align-items:center; justify-content:center; gap:40px;
+      opacity:0; pointer-events:none; transition:opacity .4s var(--ease);
+    }
+    .mobile-nav.open { opacity:1; pointer-events:all; }
+    .mobile-nav a {
+      font-family:'Clash Display', sans-serif; font-size:2rem; font-weight:600;
+      color:var(--text); text-decoration:none; transition:color .25s;
+    }
+    .mobile-nav a:hover { color:var(--c1); }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex; align-items: center; justify-content: center;
+      text-align: center;
+      padding: 120px 5vw 80px;
+    }
+    .hero-inner { max-width: 780px; }
+
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: .73rem; letter-spacing: .18em; text-transform: uppercase;
+      color: var(--c1);
+      background: rgba(56,189,248,.08);
+      border: 1px solid rgba(56,189,248,.2);
+      border-radius: 100px; padding: 7px 16px;
+      margin-bottom: 30px;
+      opacity: 0; transform: translateY(16px);
+      animation: fadeUp .8s .2s var(--ease) forwards;
+    }
+    .pulse { width:7px;height:7px;border-radius:50%;background:var(--c1); animation:pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.2;} }
+
+    .hero-title {
+      font-family: 'Clash Display', sans-serif;
+      font-size: clamp(2.6rem, 7vw, 5.5rem);
+      font-weight: 700; line-height: 1.0; letter-spacing: -.03em;
+      margin-bottom: 22px;
+      opacity: 0; transform: translateY(22px);
+      animation: fadeUp .9s .35s var(--ease) forwards;
+    }
+    .hero-title .line2 {
+      background: var(--grad);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+
+    .hero-sub {
+      font-size: clamp(.92rem, 2vw, 1.1rem);
+      font-weight: 300; color: var(--muted); line-height: 1.75;
+      margin-bottom: 44px;
+      opacity: 0; transform: translateY(16px);
+      animation: fadeUp .9s .5s var(--ease) forwards;
+    }
+
+    .hero-actions {
+      display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;
+      opacity: 0; transform: translateY(16px);
+      animation: fadeUp .9s .65s var(--ease) forwards;
+    }
+
+    .btn-primary {
+      font-family: 'Clash Display', sans-serif;
+      font-size: .88rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+      color: var(--bg); background: var(--grad);
+      padding: 15px 32px; border-radius: 100px;
+      text-decoration: none;
+      transition: opacity .3s, transform .3s var(--ease), box-shadow .3s;
+    }
+    .btn-primary:hover { opacity:.85; transform:translateY(-2px); box-shadow:0 10px 30px rgba(56,189,248,.25); }
+
+    .btn-ghost {
+      font-family: 'Clash Display', sans-serif;
+      font-size: .88rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+      color: var(--text);
+      background: var(--glass); border: 1px solid var(--border);
+      padding: 15px 32px; border-radius: 100px;
+      text-decoration: none; backdrop-filter: blur(10px);
+      transition: background .3s, border-color .3s, transform .3s var(--ease);
+    }
+    .btn-ghost:hover { background:var(--glass-h); border-color:var(--border-h); transform:translateY(-2px); }
+
+    .hero-trust {
+      display: flex; align-items: center; justify-content: center; gap: 24px;
+      margin-top: 52px; flex-wrap: wrap;
+      opacity: 0; transform: translateY(16px);
+      animation: fadeUp .9s .8s var(--ease) forwards;
+    }
+    .trust-item {
+      display: flex; align-items: center; gap: 8px;
+      font-size: .8rem; color: var(--muted);
+    }
+    .trust-item span:first-child { font-size: 1rem; }
+
+    @keyframes fadeUp { to { opacity:1; transform:translateY(0); } }
+
+    /* ── SECTION COMMONS ── */
+    .section { padding: 100px 0; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 5vw; }
+
+    .sec-tag {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: .72rem; letter-spacing: .2em; text-transform: uppercase;
+      color: var(--c2); margin-bottom: 12px;
+    }
+    .sec-tag::before { content:''; width:24px; height:1px; background:var(--c2); }
+
+    .sec-title {
+      font-family: 'Clash Display', sans-serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700; letter-spacing: -.03em; line-height: 1.1;
+      margin-bottom: 14px;
+    }
+    .sec-desc { font-size: .95rem; color: var(--muted); line-height: 1.75; max-width: 520px; margin-bottom: 56px; }
+
+    /* ── PACKAGES ── */
+    .packages { padding: 100px 0; }
+    .packages-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+    }
+
+    .pkg-card {
+      background: var(--glass);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 36px 30px;
+      backdrop-filter: blur(20px);
+      position: relative; overflow: hidden;
+      transition: transform .4s var(--ease), border-color .3s, box-shadow .4s;
+      opacity: 0; transform: translateY(30px);
+    }
+    .pkg-card.visible { animation: fadeUp .7s var(--ease) forwards; }
+    .pkg-card:hover { transform:translateY(-8px); border-color:var(--border-h); box-shadow:0 30px 60px rgba(0,0,0,.4); }
+
+    /* Liquid blob inside card */
+    .pkg-card::before {
+      content:''; position:absolute; width:200px; height:200px;
+      border-radius:50%; filter:blur(50px); opacity:.08;
+      top:-60px; right:-60px;
+      transition: opacity .4s;
+    }
+    .pkg-card:hover::before { opacity:.15; }
+    .pkg-card.pkg-1::before { background:var(--c1); }
+    .pkg-card.pkg-2::before { background:var(--c2); }
+    .pkg-card.pkg-3::before { background:var(--c3); }
+
+    .pkg-card.featured {
+      border-color: rgba(129,140,248,.35);
+      background: rgba(129,140,248,.08);
+    }
+    .pkg-card.featured::after {
+      content:'Most Popular';
+      position:absolute; top:18px; right:18px;
+      font-family:'Clash Display',sans-serif;
+      font-size:.65rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+      color:var(--bg);
+      background:var(--grad2);
+      padding:5px 12px; border-radius:100px;
+    }
+
+    .pkg-icon { font-size:2.2rem; margin-bottom:16px; display:block; }
+    .pkg-name {
+      font-family:'Clash Display',sans-serif;
+      font-size:1.1rem; font-weight:700; margin-bottom:6px;
+    }
+    .pkg-price {
+      font-family:'Clash Display',sans-serif;
+      font-size:2.4rem; font-weight:700; line-height:1;
+      background:var(--grad); -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+      margin-bottom:4px;
+    }
+    .pkg-price-sub { font-size:.78rem; color:var(--muted); margin-bottom:24px; }
+
+    .pkg-divider { height:1px; background:var(--border); margin-bottom:22px; }
+
+    .pkg-features { list-style:none; margin-bottom:28px; display:flex; flex-direction:column; gap:10px; }
+    .pkg-features li {
+      display:flex; align-items:flex-start; gap:10px;
+      font-size:.88rem; color:var(--muted); line-height:1.5;
+    }
+    .pkg-features li .check {
+      width:18px; height:18px; border-radius:50%; flex-shrink:0;
+      display:flex; align-items:center; justify-content:center;
+      font-size:.65rem; margin-top:1px;
+    }
+    .pkg-1 .check { background:rgba(56,189,248,.15); color:var(--c1); }
+    .pkg-2 .check { background:rgba(129,140,248,.15); color:var(--c2); }
+    .pkg-3 .check { background:rgba(52,211,153,.15); color:var(--c3); }
+
+    .pkg-btn {
+      display:block; width:100%; text-align:center;
+      font-family:'Clash Display',sans-serif;
+      font-size:.85rem; font-weight:600; letter-spacing:.06em; text-transform:uppercase;
+      padding:13px; border-radius:100px;
+      text-decoration:none;
+      transition:opacity .3s, transform .3s var(--ease), box-shadow .3s;
+    }
+    .pkg-btn-solid { color:var(--bg); background:var(--grad); }
+    .pkg-btn-solid:hover { opacity:.85; transform:translateY(-2px); box-shadow:0 8px 24px rgba(56,189,248,.2); }
+    .pkg-btn-outline { color:var(--text); border:1px solid var(--border); background:var(--glass); backdrop-filter:blur(10px); }
+    .pkg-btn-outline:hover { border-color:var(--border-h); transform:translateY(-2px); }
+
+    /* ── PORTFOLIO ── */
+    .portfolio-grid {
+      display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:22px;
+    }
+    .port-card {
+      background:var(--glass); border:1px solid var(--border); border-radius:22px;
+      overflow:hidden; backdrop-filter:blur(16px);
+      transition:transform .4s var(--ease), border-color .3s, box-shadow .4s;
+      opacity:0; transform:translateY(24px);
+      cursor:pointer;
+    }
+    .port-card.visible { animation:fadeUp .7s var(--ease) forwards; }
+    .port-card:hover { transform:translateY(-7px); border-color:var(--border-h); box-shadow:0 24px 50px rgba(0,0,0,.4); }
+
+    .port-thumb {
+      height:180px; display:flex; align-items:center; justify-content:center;
+      position:relative; overflow:hidden;
+    }
+    .port-thumb-bg { position:absolute;inset:0; transition:transform .6s var(--ease); }
+    .port-card:hover .port-thumb-bg { transform:scale(1.06); }
+    .port-thumb-label {
+      position:relative;z-index:2;
+      font-family:'Clash Display',sans-serif; font-size:1.3rem; font-weight:700;
+      color:#fff; text-shadow:0 2px 12px rgba(0,0,0,.5);
+    }
+    .port-body { padding:20px; }
+    .port-tags { display:flex; flex-wrap:wrap; gap:7px; margin-bottom:10px; }
+    .ptag {
+      font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+      padding:3px 10px; border-radius:100px;
+      border:1px solid var(--border); color:var(--muted);
+    }
+    .ptag.sky { border-color:rgba(56,189,248,.3); color:var(--c1); }
+    .ptag.indigo { border-color:rgba(129,140,248,.3); color:var(--c2); }
+    .ptag.emerald { border-color:rgba(52,211,153,.3); color:var(--c3); }
+    .port-name { font-family:'Clash Display',sans-serif; font-size:1rem; font-weight:700; margin-bottom:6px; }
+    .port-desc { font-size:.84rem; color:var(--muted); line-height:1.6; }
+
+    /* ── EXAMPLES ── */
+    .examples-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:20px; }
+    .ex-card {
+      background:var(--glass); border:1px solid var(--border); border-radius:22px;
+      overflow:hidden; backdrop-filter:blur(16px);
+      transition:transform .4s var(--ease), border-color .3s;
+      opacity:0; transform:translateY(24px);
+    }
+    .ex-card.visible { animation:fadeUp .7s var(--ease) forwards; }
+    .ex-card:hover { transform:translateY(-6px); border-color:var(--border-h); }
+
+    .ex-preview {
+      height:160px; display:flex; align-items:center; justify-content:center;
+      font-size:3rem; position:relative; overflow:hidden;
+    }
+    .ex-preview-bg { position:absolute;inset:0; }
+    .ex-preview span { position:relative;z-index:2; }
+    .ex-body { padding:18px; }
+    .ex-title { font-family:'Clash Display',sans-serif; font-size:.95rem; font-weight:700; margin-bottom:5px; }
+    .ex-desc { font-size:.82rem; color:var(--muted); line-height:1.6; margin-bottom:14px; }
+    .ex-link {
+      display:inline-flex; align-items:center; gap:5px;
+      font-family:'Clash Display',sans-serif; font-size:.78rem; font-weight:600;
+      letter-spacing:.06em; text-transform:uppercase; color:var(--c1); text-decoration:none;
+      transition:gap .3s var(--ease);
+    }
+    .ex-link:hover { gap:9px; }
+
+    /* ── WHY US ── */
+    .why-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:20px; }
+    .why-card {
+      background:var(--glass); border:1px solid var(--border); border-radius:20px;
+      padding:28px 22px; backdrop-filter:blur(16px);
+      transition:transform .4s var(--ease), border-color .3s;
+      opacity:0; transform:translateY(20px);
+    }
+    .why-card.visible { animation:fadeUp .6s var(--ease) forwards; }
+    .why-card:hover { transform:translateY(-5px); border-color:var(--border-h); }
+    .why-icon { font-size:2rem; margin-bottom:12px; display:block; }
+    .why-title { font-family:'Clash Display',sans-serif; font-size:.95rem; font-weight:700; margin-bottom:7px; }
+    .why-desc { font-size:.83rem; color:var(--muted); line-height:1.65; }
+
+    /* ── CONTACT ── */
+    .contact-wrap {
+      background:var(--glass); border:1px solid var(--border); border-radius:32px;
+      padding:60px; backdrop-filter:blur(20px);
+      display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center;
+      position:relative; overflow:hidden;
+    }
+    .contact-wrap::before {
+      content:''; position:absolute; width:400px; height:400px;
+      border-radius:50%; filter:blur(80px); opacity:.07;
+      background:var(--c2); bottom:-100px; right:-100px;
+    }
+
+    .contact-info .sec-title { margin-bottom:14px; }
+    .contact-info p { font-size:.93rem; color:var(--muted); line-height:1.75; margin-bottom:28px; }
+
+    .contact-items { display:flex; flex-direction:column; gap:14px; }
+    .c-item {
+      display:flex; align-items:center; gap:14px;
+      background:var(--glass); border:1px solid var(--border); border-radius:14px;
+      padding:14px 18px; backdrop-filter:blur(10px);
+      text-decoration:none; color:var(--text);
+      transition:background .3s, border-color .3s, transform .3s var(--ease);
+    }
+    .c-item:hover { background:var(--glass-h); border-color:var(--border-h); transform:translateX(4px); }
+    .c-icon { font-size:1.4rem; flex-shrink:0; }
+    .c-label { font-size:.73rem; color:var(--muted); letter-spacing:.08em; text-transform:uppercase; }
+    .c-value { font-size:.9rem; font-weight:500; margin-top:1px; }
+
+    .contact-form { display:flex; flex-direction:column; gap:14px; }
+    .form-group { display:flex; flex-direction:column; gap:6px; }
+    .form-label { font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    .form-input, .form-textarea {
+      background:var(--glass); border:1px solid var(--border); border-radius:12px;
+      padding:13px 16px; color:var(--text); font-family:inherit; font-size:.9rem;
+      backdrop-filter:blur(10px); outline:none;
+      transition:border-color .25s, background .25s;
+    }
+    .form-input:focus, .form-textarea:focus { border-color:rgba(56,189,248,.4); background:var(--glass-h); }
+    .form-input::placeholder, .form-textarea::placeholder { color:rgba(238,240,248,.25); }
+    .form-textarea { resize:vertical; min-height:110px; }
+    .form-submit {
+      font-family:'Clash Display',sans-serif; font-size:.88rem; font-weight:600;
+      letter-spacing:.06em; text-transform:uppercase;
+      color:var(--bg); background:var(--grad);
+      border:none; padding:14px; border-radius:100px;
+      cursor:pointer; transition:opacity .3s, transform .3s var(--ease);
+    }
+    .form-submit:hover { opacity:.85; transform:translateY(-2px); }
+    #formMsg { font-size:.83rem; color:var(--c3); text-align:center; min-height:18px; letter-spacing:.06em; }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top:1px solid var(--border);
+      padding:32px 5vw;
+      display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;
+    }
+    .footer-logo {
+      font-family:'Clash Display',sans-serif; font-size:1.1rem; font-weight:700;
+      background:var(--grad); -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+    }
+    footer p { font-size:.8rem; color:var(--muted); }
+    .footer-links { display:flex; gap:24px; }
+    .footer-links a { font-size:.78rem; color:var(--muted); text-decoration:none; transition:color .25s; }
+    .footer-links a:hover { color:var(--text); }
+
+    /* ── REVEAL ── */
+    .reveal { opacity:0; transform:translateY(22px); transition:opacity .7s var(--ease), transform .7s var(--ease); }
+    .reveal.visible { opacity:1; transform:translateY(0); }
+    .d1 { transition-delay:.08s; } .d2 { transition-delay:.16s; } .d3 { transition-delay:.24s; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width:960px) {
+      .packages-grid { grid-template-columns:1fr; max-width:480px; margin:0 auto; }
+      .contact-wrap { grid-template-columns:1fr; padding:36px 24px; gap:36px; }
+      .nav-links, .nav-cta { display:none; }
+      .hamburger { display:flex; }
+      .mobile-nav { display:flex; }
+    }
+    @media (max-width:640px) {
+      .packages-grid { max-width:100%; }
+      .hero-title { font-size:2.4rem; }
+      .portfolio-grid, .examples-grid, .why-grid { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- LIQUID BG -->
+<div class="liquid-bg" aria-hidden="true">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div class="blob blob-4"></div>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="nav-logo">
+    <img src="logo anime.png" alt="HunterZz Studio Logo"/>
+    <div class="nav-logo-wrap">
+      <span class="nav-logo-name">HunterZz</span>
+      <span class="nav-logo-sub">Studio</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#paket">Paket</a></li>
+    <li><a href="#portofolio">Portofolio</a></li>
+    <li><a href="#contoh">Contoh</a></li>
+    <li><a href="#kontak">Kontak</a></li>
+  </ul>
+  <a href="#kontak" class="nav-cta">Pesan Sekarang</a>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#paket" onclick="closeMobile()">Paket</a>
+  <a href="#portofolio" onclick="closeMobile()">Portofolio</a>
+  <a href="#contoh" onclick="closeMobile()">Contoh</a>
+  <a href="#kontak" onclick="closeMobile()">Kontak</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge"><span class="pulse"></span> Open for orders — Fast delivery</div>
+    <h1 class="hero-title">
+      Website Impianmu<br>
+      <span class="line2">Mulai Rp 350.000</span>
+    </h1>
+    <p class="hero-sub">
+      Desain modern, SEO Google, hosting Netlify gratis, dan responsive di semua perangkat.<br>
+      Selesai cepat, harga terjangkau, kualitas profesional.
+    </p>
+    <div class="hero-actions">
+      <a href="#paket" class="btn-primary">Lihat Paket →</a>
+      <a href="#kontak" class="btn-ghost">Konsultasi Gratis</a>
+    </div>
+    <div class="hero-trust">
+      <div class="trust-item"><span>✅</span><span>SEO Google Included</span></div>
+      <div class="trust-item"><span>⚡</span><span>Pengerjaan Cepat</span></div>
+      <div class="trust-item"><span>📱</span><span>Full Responsive</span></div>
+      <div class="trust-item"><span>🌐</span><span>Hosting Netlify Gratis</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGES -->
+<section class="packages section" id="paket">
+  <div class="container">
+    <div class="sec-tag reveal">Harga</div>
+    <h2 class="sec-title reveal d1">Pilih Paket Kamu</h2>
+    <p class="sec-desc reveal d2">Transparan, tanpa biaya tersembunyi. Semua paket sudah termasuk hosting Netlify dan SEO Google.</p>
+
+    <div class="packages-grid">
+
+      <!-- PAKET 1 -->
+      <div class="pkg-card pkg-1">
+        <span class="pkg-icon">🌱</span>
+        <div class="pkg-name">Paket Starter</div>
+        <div class="pkg-price">Rp 350K</div>
+        <div class="pkg-price-sub">Pembayaran sekali bayar</div>
+        <div class="pkg-divider"></div>
+        <ul class="pkg-features">
+          <li><span class="check">✓</span> Design profesional & modern</li>
+          <li><span class="check">✓</span> Link Netlify (hosting gratis)</li>
+          <li><span class="check">✓</span> SEO Google dasar</li>
+          <li><span class="check">✓</span> Responsive semua perangkat</li>
+          <li><span class="check">✓</span> Pengerjaan 2 minggu</li>
+          <li><span class="check">✓</span> 1x revisi desain</li>
+        </ul>
+        <a href="#kontak" class="pkg-btn pkg-btn-outline">Pilih Paket Ini</a>
+      </div>
+
+      <!-- PAKET 2 -->
+      <div class="pkg-card pkg-2 featured">
+        <span class="pkg-icon">🚀</span>
+        <div class="pkg-name">Paket Pro</div>
+        <div class="pkg-price">Rp 450K</div>
+        <div class="pkg-price-sub">Pembayaran sekali bayar</div>
+        <div class="pkg-divider"></div>
+        <ul class="pkg-features">
+          <li><span class="check">✓</span> Peningkatan design premium</li>
+          <li><span class="check">✓</span> Link Netlify (hosting gratis)</li>
+          <li><span class="check">✓</span> QR Code website</li>
+          <li><span class="check">✓</span> SEO Google optimized</li>
+          <li><span class="check">✓</span> Responsive semua perangkat</li>
+          <li><span class="check">✓</span> 2x revisi desain</li>
+        </ul>
+        <a href="#kontak" class="pkg-btn pkg-btn-solid">Pilih Paket Ini</a>
+      </div>
+
+      <!-- PAKET 3 -->
+      <div class="pkg-card pkg-3">
+        <span class="pkg-icon">👑</span>
+        <div class="pkg-name">Paket Premium</div>
+        <div class="pkg-price">Rp 500K</div>
+        <div class="pkg-price-sub">Pembayaran sekali bayar</div>
+        <div class="pkg-divider"></div>
+        <ul class="pkg-features">
+          <li><span class="check">✓</span> Peningkatan design eksklusif</li>
+          <li><span class="check">✓</span> Link Netlify (hosting gratis)</li>
+          <li><span class="check">✓</span> QR Code website</li>
+          <li><span class="check">✓</span> SEO Google advanced</li>
+          <li><span class="check">✓</span> Responsive semua perangkat</li>
+          <li><span class="check">✓</span> 3x revisi desain</li>
+          <li><span class="check">✓</span> 💬 Chat kapan saja (support penuh)</li>
+        </ul>
+        <a href="#kontak" class="pkg-btn pkg-btn-outline">Pilih Paket Ini</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="section">
+  <div class="container">
+    <div class="sec-tag reveal">Kenapa Kami</div>
+    <h2 class="sec-title reveal d1">Kenapa Pilih HunterZz Studio?</h2>
+    <p class="sec-desc reveal d2">Kami bukan sekadar bikin website — kami bikin website yang benar-benar bekerja untuk bisnis kamu.</p>
+    <div class="why-grid">
+      <div class="why-card">
+        <span class="why-icon">⚡</span>
+        <div class="why-title">Pengerjaan Cepat</div>
+        <div class="why-desc">Website kamu selesai tepat waktu. Tidak ada drama, tidak ada delay tanpa alasan jelas.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">🎨</span>
+        <div class="why-title">Design Modern</div>
+        <div class="why-desc">Bukan template generik — setiap website kami rancang custom sesuai brand dan kebutuhan kamu.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">🔍</span>
+        <div class="why-title">SEO Google</div>
+        <div class="why-desc">Website kamu bisa ditemukan di Google. Kami optimalkan dari struktur hingga meta tag.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">📱</span>
+        <div class="why-title">Mobile Friendly</div>
+        <div class="why-desc">Tampil sempurna di HP, tablet, maupun laptop. Responsive 100% di semua ukuran layar.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">💬</span>
+        <div class="why-title">Komunikasi Aktif</div>
+        <div class="why-desc">Update progress secara berkala. Kamu selalu tahu perkembangan website kamu.</div>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">💰</span>
+        <div class="why-title">Harga Transparan</div>
+        <div class="why-desc">Tidak ada biaya tersembunyi. Harga yang tertera adalah harga yang kamu bayar.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="section" id="portofolio">
+  <div class="container">
+    <div class="sec-tag reveal">Portofolio</div>
+    <h2 class="sec-title reveal d1">Karya Kami</h2>
+    <p class="sec-desc reveal d2">Beberapa website yang sudah kami kerjakan — dari restoran fine dining hingga website sekolah.</p>
+
+    <div class="portfolio-grid">
+      <div class="port-card reveal" onclick="window.open('https://hunterzzz.netlify.app/','_blank')">
+        <div class="port-thumb">
+          <div class="port-thumb-bg" style="background:linear-gradient(135deg,#1a1410,#2e2318,#3d2e1a)"></div>
+          <div class="port-thumb-label">🕯️ Lumière</div>
+        </div>
+        <div class="port-body">
+          <div class="port-tags">
+            <span class="ptag sky">HTML</span>
+            <span class="ptag indigo">CSS</span>
+            <span class="ptag emerald">JS</span>
+          </div>
+          <div class="port-name">Lumière Fine Dining</div>
+          <p class="port-desc">Website restoran fine dining premium dengan custom cursor, parallax hero, animated menu, dan reservation form.</p>
+          <a href="https://hunterzzz.netlify.app/" target="_blank" rel="noopener" class="ex-link" onclick="event.stopPropagation()">Lihat Live →</a>
+        </div>
+      </div>
+
+      <div class="port-card reveal d1" onclick="window.open('https://8-hyperactive.netlify.app/','_blank')">
+        <div class="port-thumb">
+          <div class="port-thumb-bg" style="background:linear-gradient(135deg,#0a0c10,#3a2c5f,#040350)"></div>
+          <div class="port-thumb-label">🌌 Kelas 8H</div>
+        </div>
+        <div class="port-body">
+          <div class="port-tags">
+            <span class="ptag sky">HTML</span>
+            <span class="ptag indigo">CSS</span>
+            <span class="ptag">Cosmic Theme</span>
+          </div>
+          <div class="port-name">Website Kelas MTsN</div>
+          <p class="port-desc">Website kelas sekolah dengan dark cosmic aesthetic, profil siswa, dan jadwal pelajaran interaktif.</p>
+          <a href="https://8-hyperactive.netlify.app/" target="_blank" rel="noopener" class="ex-link" onclick="event.stopPropagation()">Lihat Live →</a>
+        </div>
+      </div>
+
+      <div class="port-card reveal d2" onclick="window.open('https://profile.hackthebox.com/profile/019ddc83-0718-7312-ac19-841dccc120c0','_blank')">
+        <div class="port-thumb">
+          <div class="port-thumb-bg" style="background:linear-gradient(135deg,#072507,#003300,#014417)"></div>
+          <div class="port-thumb-label">🟢 HTB Labs</div>
+        </div>
+        <div class="port-body">
+          <div class="port-tags">
+            <span class="ptag sky">Nmap</span>
+            <span class="ptag indigo">Linux</span>
+            <span class="ptag emerald">Telnet</span>
+          </div>
+          <div class="port-name">Hack The Box Journey</div>
+          <p class="port-desc">Eksplorasi ethical hacking — Nmap scanning, Telnet exploitation, privilege escalation, dan basic pentesting.</p>
+          <a href="https://profile.hackthebox.com/profile/019ddc83-0718-7312-ac19-841dccc120c0" target="_blank" rel="noopener" class="ex-link" onclick="event.stopPropagation()">HTB Profile →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXAMPLES -->
+<section class="section" id="contoh">
+  <div class="container">
+    <div class="sec-tag reveal">Contoh Website</div>
+    <h2 class="sec-title reveal d1">Jenis Website Yang Bisa Kami Buat</h2>
+    <p class="sec-desc reveal d2">Dari landing page bisnis sampai website portofolio — kami bisa handle semuanya.</p>
+
+    <div class="examples-grid">
+      <div class="ex-card reveal">
+        <div class="ex-preview">
+          <div class="ex-preview-bg" style="background:linear-gradient(135deg,#1a1410,#2e1a0a)"></div>
+          <span>🍽️</span>
+        </div>
+        <div class="ex-body">
+          <div class="ex-title">Website Restoran / Café</div>
+          <p class="ex-desc">Menu digital, galeri foto, jam buka, form reservasi, dan kontak maps. Cocok untuk UMKM kuliner.</p>
+          <a href="#kontak" class="ex-link">Order Sekarang →</a>
+        </div>
+      </div>
+
+      <div class="ex-card reveal d1">
+        <div class="ex-preview">
+          <div class="ex-preview-bg" style="background:linear-gradient(135deg,#0a1020,#101830)"></div>
+          <span>💼</span>
+        </div>
+        <div class="ex-body">
+          <div class="ex-title">Website Portofolio</div>
+          <p class="ex-desc">Tampilkan karya, skill, dan pengalaman kamu secara profesional. Ideal untuk freelancer dan kreator.</p>
+          <a href="#kontak" class="ex-link">Order Sekarang →</a>
+        </div>
+      </div>
+
+      <div class="ex-card reveal d2">
+        <div class="ex-preview">
+          <div class="ex-preview-bg" style="background:linear-gradient(135deg,#0a1a0a,#0d200d)"></div>
+          <span>🛒</span>
+        </div>
+        <div class="ex-body">
+          <div class="ex-title">Landing Page Produk</div>
+          <p class="ex-desc">Halaman promosi produk atau jasa yang fokus mengkonversi pengunjung jadi pembeli.</p>
+          <a href="#kontak" class="ex-link">Order Sekarang →</a>
+        </div>
+      </div>
+
+      <div class="ex-card reveal">
+        <div class="ex-preview">
+          <div class="ex-preview-bg" style="background:linear-gradient(135deg,#1a0a1a,#200d20)"></div>
+          <span>🏫</span>
+        </div>
+        <div class="ex-body">
+          <div class="ex-title">Website Sekolah / Kelas</div>
+          <p class="ex-desc">Profil sekolah, jadwal, galeri kegiatan, dan pengumuman. Cocok untuk sekolah atau organisasi.</p>
+          <a href="#kontak" class="ex-link">Order Sekarang →</a>
+        </div>
+      </div>
+
+      <div class="ex-card reveal d1">
+        <div class="ex-preview">
+          <div class="ex-preview-bg" style="background:linear-gradient(135deg,#1a1000,#201500)"></div>
+          <span>💈</span>
+        </div>
+        <div class="ex-body">
+          <div class="ex-title">Website UMKM / Toko</div>
+          <p class="ex-desc">Katalog produk, info toko, kontak WhatsApp, dan peta lokasi. Tingkatkan kepercayaan pelanggan.</p>
+          <a href="#kontak" class="ex-link">Order Sekarang →</a>
+        </div>
+      </div>
+
+      <div class="ex-card reveal d2">
+        <div class="ex-preview">
+          <div class="ex-preview-bg" style="background:linear-gradient(135deg,#001a1a,#002020)"></div>
+          <span>🎯</span>
+        </div>
+        <div class="ex-body">
+          <div class="ex-title">Website Event / Acara</div>
+          <p class="ex-desc">Countdown timer, detail acara, RSVP form, dan galeri. Sempurna untuk event organizer.</p>
+          <a href="#kontak" class="ex-link">Order Sekarang →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="kontak">
+  <div class="container">
+    <div class="sec-tag reveal">Kontak</div>
+    <h2 class="sec-title reveal d1">Yuk, Mulai Sekarang!</h2>
+    <p class="sec-desc reveal d2">Konsultasi gratis. Ceritakan kebutuhan website kamu dan kami siap bantu wujudkan.</p>
+
+    <div class="contact-wrap reveal">
+      <div class="contact-info">
+        <h3 class="sec-title" style="font-size:1.6rem;margin-bottom:12px">Hubungi Kami</h3>
+        <p>Siap menjawab pertanyaan kamu kapan saja. Respons cepat, ramah, dan profesional.</p>
+        <div class="contact-items">
+          <a href="https://wa.me/628999736597" target="blank" rel="noopener" class="c-item">
+            <span class="c-icon">💬</span>
+            <div>
+              <div class="c-label">WhatsApp</div>
+              <div class="c-value">0899-9736-597</div>
+            </div>
+          </a>
+          <a href="mailto:danish.atha.987@gmail.com" class="c-item">
+            <span class="c-icon">📧</span>
+            <div>
+              <div class="c-label">Email</div>
+              <div class="c-value">danish.atha.987@gmail.com</div>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/danzz_hunterz?igsh=b3JtMGhhdmQzXmtm" target="_blank" rel="noopener" class="c-item">
+            <span class="c-icon">📸</span>
+            <div>
+              <div class="c-label">Instagram</div>
+              <div class="c-value">@danzz_hunterzz</div>
+            </div>
+          </a>
+          <a href="https://github.com/fixhunter321" target="_blank" rel="noopener" class="c-item">
+            <span class="c-icon">🐙</span>
+            <div>
+              <div class="c-label">GitHub</div>
+              <div class="c-value">fixhunter321</div>
+            </div>
+          </a>
+          <a href="https://tiktok.com/@danz_atha12_r1&8_t=ZS-95lzHYb4912" target="_blank" rel="noopener" class="c-item">
+            <span class="c-icon">🎵</span>
+            <div>
+              <div class="c-label">TikTok</div>
+              <div class="c-value">@danz_atha12_r1</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div class="contact-form">
+          <div class="form-group">
+            <label class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-input" placeholder="Nama kamu..." id="f-name"/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">WhatsApp / Email</label>
+            <input type="text" class="form-input" placeholder="Kontak aktif kamu..." id="f-contact"/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Jenis Website</label>
+            <input type="text" class="form-input" placeholder="Contoh: Website restoran, toko, portofolio..." id="f-type"/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Paket yang Diminati</label>
+            <select class="form-input" id="f-pkg" style="appearance:none;cursor:pointer">
+              <option value="" disabled selected>Pilih paket...</option>
+              <option>Paket Starter — Rp 350.000</option>
+              <option>Paket Pro — Rp 450.000</option>
+              <option>Paket Premium — Rp 500.000</option>
+              <option>Belum tahu, mau konsultasi dulu</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Ceritakan Kebutuhanmu</label>
+            <textarea class="form-textarea" placeholder="Deskripsikan website yang kamu inginkan..." id="f-msg"></textarea>
+          </div>
+<button class="form-submit" onclick="sendIG()">Kirim via Instagram 📸</button>
+          <div id="formMsg"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-logo">HunterZz Studio</span>
+  <p>© 2025 HunterZz Studio. Jasa Website Profesional.</p>
+  <div class="footer-links">
+    <a href="#paket">Paket</a>
+    <a href="#portofolio">Portofolio</a>
+    <a href="#contoh">Contoh</a>
+    <a href="#kontak">Kontak</a>
+  </div>
+</footer>
+
+<script>
+/* NAV SCROLL */
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 40));
+
+/* HAMBURGER */
+const hbg = document.getElementById('hamburger');
+const mob = document.getElementById('mobileNav');
+hbg.addEventListener('click', () => {
+  hbg.classList.toggle('open');
+  mob.classList.toggle('open');
+  document.body.style.overflow = mob.classList.contains('open') ? 'hidden' : '';
+});
+function closeMobile() {
+  hbg.classList.remove('open'); mob.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+/* INTERSECTION OBSERVER */
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal, .pkg-card, .port-card, .ex-card, .why-card').forEach(el => obs.observe(el));
+
+/* STAGGER */
+document.querySelectorAll('.pkg-card').forEach((c,i) => c.style.animationDelay = `${i*.12}s`);
+document.querySelectorAll('.port-card').forEach((c,i) => c.style.animationDelay = `${i*.1}s`);
+document.querySelectorAll('.ex-card').forEach((c,i) => c.style.animationDelay = `${i*.08}s`);
+document.querySelectorAll('.why-card').forEach((c,i) => c.style.animationDelay = `${i*.07}s`);
+
+/* SEND IG */
+function sendIG() {
+  const name    = document.getElementById('f-name').value.trim();
+  const contact = document.getElementById('f-contact').value.trim();
+  const type    = document.getElementById('f-type').value.trim();
+  const pkg     = document.getElementById('f-pkg').value;
+  const msg     = document.getElementById('f-msg').value.trim();
+
+  if (!name || !contact) {
+    document.getElementById('formMsg').textContent = '⚠️ Nama dan kontak wajib diisi ya!';
+    return;
+  }
+
+  window.open('https://www.instagram.com/danzz_hunterz?igsh=b3JtMGhhdmQxZmtm', '_blank');
+  document.getElementById('formMsg').textContent = '📸 Mengarahkan ke Instagram... DM kami di @danzz_hunterzz';
+  setTimeout(() => document.getElementById('formMsg').textContent = '', 5000);
+}
+</script>
+</body>
+</html>
