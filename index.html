@@ -885,11 +885,11 @@
               <div class="c-value">danish.atha.987@gmail.com</div>
             </div>
           </a>
-          <a href="https://www.instagram.com/danzz_gaskeun?igsh=b3JtMGhhdmQzXmtm" target="_blank" rel="noopener" class="c-item">
+          <a href="https://www.instagram.com/danzz_hunterz?igsh=b3JtMGhhdmQzXmtm" target="_blank" rel="noopener" class="c-item">
             <span class="c-icon">📸</span>
             <div>
               <div class="c-label">Instagram</div>
-              <div class="c-value">@danzz_gaskeun</div>
+              <div class="c-value">@danzz_hunterz</div>
             </div>
           </a>
           <a href="https://github.com/fixhunter321" target="_blank" rel="noopener" class="c-item">
@@ -937,7 +937,7 @@
             <label class="form-label">Ceritakan Kebutuhanmu</label>
             <textarea class="form-textarea" placeholder="Deskripsikan website yang kamu inginkan..." id="f-msg"></textarea>
           </div>
-<button class="form-submit" onclick="sendWA()">Kirim via WhatsApp 🚀</button>
+<button class="form-submit" onclick="sendIG()">Kirim via Instagram 🚀</button>
           <div id="formMsg"></div>
         </div>
       </div>
@@ -987,8 +987,8 @@ document.querySelectorAll('.port-card').forEach((c,i) => c.style.animationDelay 
 document.querySelectorAll('.ex-card').forEach((c,i) => c.style.animationDelay = `${i*.08}s`);
 document.querySelectorAll('.why-card').forEach((c,i) => c.style.animationDelay = `${i*.07}s`);
 
-/* SEND WA */
-function sendWA() {
+/* SEND ig */
+function sendIG() {
   const name    = document.getElementById('f-name').value.trim();
   const contact = document.getElementById('f-contact').value.trim();
   const type    = document.getElementById('f-type').value.trim();
@@ -1000,10 +1000,28 @@ function sendWA() {
     return;
   }
 
-  const text = encodeURIComponent(`Halo Gaskeun Studio! 👋\n\nNama: ${name}\nKontak: ${contact}\nJenis Website: ${type || '-'}\nPaket: ${pkg || 'Belum dipilih'}\n\nKebutuhan:\n${msg || '-'}`);
-  window.open(`https://wa.me/628999736597?text=${text}`, '_blank');
-  document.getElementById('formMsg').textContent = '✅ Mengarahkan ke WhatsApp...';
-  setTimeout(() => document.getElementById('formMsg').textContent = '', 4000);
+  const text = 
+`Halo Gaskeun Studio!
+
+Nama: ${name}
+Kontak: ${contact}
+Jenis Website: ${type || '-'}
+Paket: ${pkg || 'Belum dipilih'}
+
+Kebutuhan:
+${msg || '-'}`;
+
+  // Copy ke clipboard
+  navigator.clipboard.writeText(text);
+
+  document.getElementById('formMsg').textContent = '📋 Pesan sudah dicopy, langsung diarahkan ke DM IG...';
+
+  // 🔥 Deep link IG DM (username kamu)
+  window.open('https://www.instagram.com/danzz_gaskeun?igsh=b3JtMGhhdmQzXmtm', '_blank');
+
+  setTimeout(() => {
+    document.getElementById('formMsg').textContent = '';
+  }, 3000);
 }
 </script>
 </body>
