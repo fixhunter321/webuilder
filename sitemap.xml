@@ -3,40 +3,40 @@
 
   <!-- Halaman Utama -->
   <url>
-    <loc>https://hunterzz-studio.netlify.app/</loc>
-    <lastmod>2025-04-30</lastmod>
+    <loc>https://webservice-ten.vercel.app/</loc>
+    <lastmod>2025-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Paket -->
   <url>
-    <loc>https://hunterzz-studio.netlify.app/#paket</loc>
-    <lastmod>2025-04-30</lastmod>
+    <loc>https://webservice-ten.vercel.app/#paket</loc>
+    <lastmod>2025-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Portofolio -->
   <url>
-    <loc>https://hunterzz-studio.netlify.app/#portofolio</loc>
-    <lastmod>2025-04-30</lastmod>
+    <loc>https://webservice-ten.vercel.app/#portofolio</loc>
+    <lastmod>2025-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Contoh Website -->
   <url>
-    <loc>https://hunterzz-studio.netlify.app/#contoh</loc>
-    <lastmod>2025-04-30</lastmod>
+    <loc>https://webservice-ten.vercel.app/#contoh</loc>
+    <lastmod>2025-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Kontak -->
   <url>
-    <loc>https://hunterzz-studio.netlify.app/#kontak</loc>
-    <lastmod>2025-04-30</lastmod>
+    <loc>https://webservice-ten.vercel.app/#kontak</loc>
+    <lastmod>2025-05-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
